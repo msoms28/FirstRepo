@@ -1,0 +1,58 @@
+/* add your CSS here */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+img {
+	width: 300px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: 'Arial';
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+span {
+	font-weight: bold;
+	font-style: normal;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+.border1 {
+	border: 1px solid #E0E0E0;
+	width: 300px;
+	height: 500px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 15px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+.border2 {
+	border: 1px solid #E0E0E0;
+	font-style: italic;
+	font-size: 14px;
+	font-family: 'Arial Narrow';
+	padding: 8px;
+}
+
+#bullets {
+	list-style-type: none;
+}
+
+#font {
+	font-style: normal;
+	padding-top: 10px;
+}

@@ -1,0 +1,124 @@
+* {
+  border: 1px solid red !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
+h1 {
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+h3 {
+  text-align: center;
+  margin: auto;
+  padding-right: 28px;
+}
+
+h4 {
+  text-align: right;
+  margin-top: 5px;
+}
+
+#logoImg {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+#mainImg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#smallImg1 {
+  padding-top: 14px;
+  padding-right: 28px;
+  padding-bottom: 14px;
+}
+
+#smallImg2 {
+  padding: 14px;
+}
+
+#smallImg3 {
+  padding-top: 14px;
+  padding-left: 28px;
+  padding-bottom: 14px;
+}
+
+.url {
+  text-align: center;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}

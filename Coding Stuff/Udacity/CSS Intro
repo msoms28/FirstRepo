@@ -1,0 +1,35 @@
+tag selector - how you identify HTML
+declaration - how you will treat that selected HTML with CSS
+attributes - ids or classes for HTML elements to apply CSS to
+class - can be added to multiple HTML elements and HTML elements can have
+multiple classes
+  .[class name] {}
+id - HTML can only have 1 id and id can only be used once per page
+  #[id name] {}
+(css-tricks)
+
+absolute units - fixed units of measure (road is 7.2m wide)
+  px
+  mm
+  cm
+  in
+relative units - units compared to another length property (2 car lenghts)
+  percentages
+  em - ?
+  vw - viewport width
+  vh - viewport height
+
+Colors -
+  RGB - decimal for RGB 0-255
+    background-color: rgb(255,0,255);
+  Hexadecimal - RGB 00-FF
+    background-color: #ff00ff;
+
+
+    italicized text for the animal's interesting fact
+    bolded labels for the animal's list items (e.g. 'Habitat')
+    border around the animal's name, image, and information
+    border around the animal's information
+    spacing between the animal's name, image, and information (you will need to use the property padding)
+
+    When you're done matching your webpage to the design prototype, swap in an image and information for your favorite animal. For the image, you will want use an image with a width of 300 pixels. If your image is larger, you can set the image's width to 300 pixels in your CSS, but be aware that your image might end up being squished or distorted. Later, we’ll talk about how you can fix this problem using responsive images. Also, don't forget to change the image's alt attribute to the name of your animal. So, alt="clownfish" should be replaced with alt="name-of-your-animal".

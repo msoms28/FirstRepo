@@ -1,0 +1,48 @@
+/* add your CSS here */
+*{
+	/*margin: 5px;*/
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+body {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+img{
+    width: 430px;
+}
+.border1{
+    border: 2px solid #E0E0E0;
+    width: 450px;
+    height: 750px;
+    -webkit-box-shadow: 5px 5px 20px 5px rgba(128,128,128,0.15);
+    -moz-box-shadow: 5px 5px 20px 5px rgba(128,128,128,0.15);
+    box-shadow: 5px 5px 20px 5px rgba(128,128,128,0.15);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.border2{
+    border: 2px solid #E0E0E0;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 0;
+    text-align: left;
+}
+.stats{
+    font-weight: bold;
+    font-style: normal;
+}
+#bullets{
+    list-style-type: none;
+}
+#font{
+    font-style: normal;
+}
+#animal{
+    text-align: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
